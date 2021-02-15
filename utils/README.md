@@ -1,8 +1,12 @@
-# s
+# d
 
 ## Description
 
 d
+
+
+
+
 
 ## Table of Contents
 
@@ -19,31 +23,31 @@ d
 
 ## Installation
 
-f
+d
 
 ## Usage
  
-g
+d
 
 ## User Story
 
-e
+d
 
 ## Motivation
 
-w
+d
 
 ## Features
 
-f
+d
 
 ## Credits
 
-g
+d
 
 ## License
 
-![Inquirer package](https://img.shields.io/badge/LICENSE-MIT-brightgreen).
+d
 
 ## Contributing
 
@@ -51,11 +55,11 @@ d
 
 ## Tests
 
-g
+d
 
 ## Questions
 
-a
+d
 
-w
+d
 

@@ -1,8 +1,10 @@
 function createLicense(data) {
 
-  return `![Inquirer package](https://img.shields.io/badge/LICENSE-${data}-brightgreen).`
-
-  //if none return ''
+  if (`${data}` === 'none') {
+    return ''
+  } else {
+    return `![Inquirer package](https://img.shields.io/badge/LICENSE-${data}-brightgreen).`
+  }
   
 }
 
@@ -13,6 +15,8 @@ function generateMarkdown(data) {
   return `# ${data.title}\n
 ## Description\n
 ${data.description}\n
+\n
+${createLicense(data.license)}\n
 ## Table of Contents\n
 *[Installation](#Installation)
 *[Usage](#Usage)
@@ -37,7 +41,7 @@ ${data.features}\n
 ## Credits\n
 ${data.credits}\n
 ## License\n
-${createLicense(data.license)}\n
+${data.licenseDescription}\n
 ## Contributing\n
 ${data.contributionGuidelines}\n
 ## Tests\n

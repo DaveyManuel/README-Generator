@@ -49,7 +49,12 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please choose an appropriate license from the list below',
-        choices: ['MIT', 'Apache 2.0', 'none']
+        choices: ['MIT', 'Apache 2.0', 'Apache', 'GPL', 'GPL (>=2)', 'none']
+    },
+    {
+        type: 'input',
+        name: 'licenseDescription',
+        message: 'Explain which license the application is covered under, and why you chose to use this particular license.'
     },
     {
         type: 'input',
@@ -90,7 +95,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then((data) => {
-        const {title, description, installation, usage, userStory, motivation, features, credits, license, contributionGuidelines, tests, gitHub, email} = data; 
+        const {title, description, installation, usage, userStory, motivation, features, credits, license, licenseDescription, contributionGuidelines, tests, gitHub, email} = data; 
         console.log(data)
         writeToFile('README.md', generateMarkdown(data));
     })
