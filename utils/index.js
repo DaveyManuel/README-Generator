@@ -37,6 +37,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'features',
+        message: 'Please include any notable features of your application.'
+    },
+    {
+        type: 'input',
         name: 'credits',
         message: 'Please provide the names of those who helped you with this project.'
     },
@@ -48,7 +53,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributingGuidelines',
+        name: 'contributionGuidelines',
         message: 'Explain the guidelines associated with contributing to this project and how to do so.'
     },
     {
@@ -66,8 +71,7 @@ const questions = [
         name: 'email',
         message: 'What is a good email for users to reach you for further questions?'
     }
-
-    
+  
 ];
 
 // function to write README file
@@ -86,7 +90,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then((data) => {
-        const {title, description, motivation, userStory, usage, credits, license} = data; //re-order when done with all questions
+        const {title, description, installation, usage, userStory, motivation, features, credits, license, contributionGuidelines, tests, gitHub, email} = data; 
         console.log(data)
         writeToFile('README.md', generateMarkdown(data));
     })
