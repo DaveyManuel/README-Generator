@@ -1,12 +1,12 @@
-# d
+# README Generator
 
 ## Description
 
-d
+I created a command line application that takes in user input and places it into a README
 
 
 
-
+![Inquirer package](https://img.shields.io/badge/LICENSE-GPL (>=2)-brightgreen).
 
 ## Table of Contents
 
@@ -23,43 +23,43 @@ d
 
 ## Installation
 
-d
+No extra installation required
 
 ## Usage
  
-d
+Run node index and answer prompts accordingly.
 
 ## User Story
 
-d
+As a user I want an application that takes in answers and ...
 
 ## Motivation
 
-d
+Homework
 
 ## Features
 
-d
+jk
 
 ## Credits
 
-d
+me
 
 ## License
 
-d
+because
 
 ## Contributing
 
-d
+do it boi
 
 ## Tests
 
-d
+testy
 
 ## Questions
 
-d
+j
 
-d
+l
 
