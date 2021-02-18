@@ -12,7 +12,7 @@ https://github.com/DaveyManuel/README-Generator
 
 Attached is a screen recorded video showcasing how the application works:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t6i4nRwdwd0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/t6i4nRwdwd0
 
 ## Logic
 
