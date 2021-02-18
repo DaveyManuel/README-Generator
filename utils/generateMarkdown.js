@@ -47,9 +47,10 @@ ${data.contributionGuidelines}\n
 ## Tests\n
 ${data.tests}\n
 ## Questions\n
-${data.gitHub}\n
-${data.email}
+For any further questions regarding the application, please reach me at:
 
+GitHub: ${data.gitHub}\n
+Email: ${data.email}
 `;
 }
 

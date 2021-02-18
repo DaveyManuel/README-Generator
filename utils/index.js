@@ -84,7 +84,7 @@ function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, data, function (err) {
         if (err) throw err;
-        console.log('created README');
+        console.log('Created README');
       });
 
 }
